@@ -1,9 +1,10 @@
-import Image from 'next/image'
+import Content from "@/components/pagebody/Content"
+
 
 export default function Home() {
   return (
-       <div className = "text-2xl">
-           Welcome to app
+       <div>
+          <Content/>
        </div>
   )
 }
